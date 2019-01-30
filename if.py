@@ -9,7 +9,7 @@ name = input("Enter name:")
 while len(name) > 15 or len(name) <3 :
      name = input("invalid name. Re-enter name:")
 email = input("Enter email:")
-while "@." not in (email) and "." is not(email):
+while "@" not in (email) and "." is not(email):
      email = input("Enter email")
 number = int(input("Enter number:"))
 while len(str(number)) > 10:

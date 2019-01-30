@@ -4,12 +4,19 @@ message = input("enter your message :")
 new_message = ""
 counter = 0
 
-for letter in message:
-    if letter not in VOWELS:
-        new_message += letter 
+for letter in message: 
     if letter in VOWELS:
-        print(letter)
-    counter +=1
-    print (counter)
+        if letter in new_message:
+                counter = counter+1
+        else: new_message += letter        
+result =(new_message, counter)
+print(result)
+#         counter +=1
+# print (counter)
+
+    
  
-print(new_message)  
+# print(new_message)  
+# coordinates = (4,5,4)
+# coordinates[2] =
+# print(coordinates)
