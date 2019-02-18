@@ -4,7 +4,7 @@ def list_sort(list1):
     even = []
     odd = []
     char = []
-     mydict = dict()
+    # mydict = dict()
 
     for x in list1:
         if isinstance (x, int):
@@ -17,6 +17,7 @@ def list_sort(list1):
         elif isinstance (x, str):
             char.append(x)
             char.sort()
+            char.sort(reverse=True)
     return {'evens': even, 'odd': odd, 'char': char, }
 
 print(list_sort(list1))

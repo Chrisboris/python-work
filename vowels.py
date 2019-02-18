@@ -1,4 +1,4 @@
-VOWELS = ("a", "e", "i", "o", "u") 
+VOWELS = 'aeiou' 
 message = input("enter your message :")
 
 new_message = ""
@@ -8,7 +8,9 @@ for letter in message:
     if letter in VOWELS:
         if letter in new_message:
                 counter = counter+1
-        else: new_message += letter        
+        else: 
+                 new_message += letter 
+        # new_message += letter        
 result =(new_message, counter)
 print(result)
 #         counter +=1
