@@ -5,4 +5,4 @@ Year = int(input("enter year of birth: "))
 Age = (2020 - Year)
 
 print("you are " + str(Age )  + " years ")
-print("You were born on " + str( Date ) +  str( Month ) + str( Year ))
+print("You were born on " +  str( Date )  +   str( Month ) +  str( Year ))
